@@ -1,0 +1,3 @@
+[submodule "universal-computation"]
+	path = universal-computation
+	url = https://github.com/kzl/universal-computation.git
