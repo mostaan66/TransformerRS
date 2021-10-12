@@ -89,7 +89,7 @@ def experiment(
         experiment_type = 'classification'
 
     elif task == 'eurosat':
-        from universal_computation.datasets.euorsat import EuroSATRGBDataset
+        from universal_computation.datasets.eurosat import EuroSATRGBDataset
         dataset = EuroSATRGBDataset(batch_size=batch_size, patch_size=patch_size, device=device)
         input_dim, output_dim = 3 * patch_size**2, 10
         use_embeddings = False
